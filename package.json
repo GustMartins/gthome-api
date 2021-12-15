@@ -1,0 +1,24 @@
+{
+  "name": "@gthome/api",
+  "version": "0.0.0",
+  "description": "A fresh new Architect project!",
+  "scripts": {
+    "docs": "typedoc",
+    "start": "npx sandbox",
+    "prestart": "npm run build"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/shared/**/*"
+    ]
+  },
+  "devDependencies": {
+    "@architect/architect": "^9.4.2",
+    "@types/architect__functions": "^3.13.6",
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.5",
+    "ts-jest": "^27.1.1",
+    "typedoc": "^0.22.10"
+  }
+}
